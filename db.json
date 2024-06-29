@@ -11,7 +11,7 @@
     },
     {
       "id": "2",
-      "title": "College Bag",
+      "title": "BagPack",
       "brand": "Dell",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/x/g/y/-original-imagz6zvymamsj7z.jpeg?q=70",
       "price": "50",
@@ -38,9 +38,9 @@
     },
     {
       "id": "5",
-      "title": "Gym Pack",
-      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/sport-bag/n/r/k/gym-duffel-bag-men-women-sports-duffel-gym-bag-shoe-compartment-original-imagnmyvmzfsmvfd.jpeg?q=70",
+      "title": "Gym Bag",
       "brand": "Puma",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/sport-bag/n/r/k/gym-duffel-bag-men-women-sports-duffel-gym-bag-shoe-compartment-original-imagnmyvmzfsmvfd.jpeg?q=70",
       "price": "60",
       "discount": "25",
       "available": true
@@ -101,8 +101,8 @@
     },
     {
       "id": "0bc2",
-      "title": "Hello Kitty Bag",
-      "brand": "Kitty Love",
+      "title": "Baby Bag",
+      "brand": "KittyCat",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/g/h/3/14-premium-quality-kids-school-bag-cartoon-toy-for-play-school-original-imagrm9fsgamapby.jpeg?q=70",
       "price": "32",
       "discount": "10",

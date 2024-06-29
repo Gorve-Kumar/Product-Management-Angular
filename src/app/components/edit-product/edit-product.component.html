@@ -2,6 +2,7 @@
     <form [formGroup]="bagForm" class="shadow border w-6/12 p-4" (ngSubmit)="editProduct()">
         <div class="flex flex-col">
             <mat-form-field class="w-full">
+                <mat-label>Title</mat-label>
                 <input matInput 
                     name="title"
                     formControlName="title"
@@ -9,6 +10,7 @@
             </mat-form-field>
 
             <mat-form-field class="w-full">
+                <mat-label>Brand</mat-label>
                 <input matInput 
                     name="brand" 
                     formControlName="brand"
@@ -16,6 +18,7 @@
             </mat-form-field>
 
             <mat-form-field class="w-full">
+                <mat-label>Image URL</mat-label>
                 <input matInput 
                     name="image" 
                     formControlName="image"
@@ -23,6 +26,7 @@
             </mat-form-field>
 
             <mat-form-field class="w-full">
+                <mat-label>Price</mat-label>
                 <input matInput 
                     name="price" 
                     formControlName="price"
@@ -30,6 +34,7 @@
             </mat-form-field>
 
             <mat-form-field class="w-full">
+                <mat-label>Discount Amount</mat-label>
                 <input matInput 
                     name="discount" 
                     formControlName="discount"
