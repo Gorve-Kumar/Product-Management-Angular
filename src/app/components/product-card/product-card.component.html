@@ -1,0 +1,32 @@
+<mat-card class="Shadow">
+    <img class="product-image" src="{{bag_pack.image}}" alt="Image">
+    <div class="p-4">
+        <h6>{{bag_pack.title}}</h6>
+        <p>{{bag_pack.brand}}</p>
+        <div class="flex gap-3">
+            <span>Price. ${{bag_pack.price * ((100-bag_pack.discount) * 0.01)}}</span>
+            <span><s>${{bag_pack.price}}</s></span>
+            <span><b>{{bag_pack.discount}}% Discount</b></span>
+        </div>
+        <p class="available">{{bag_pack.available?"In":"Out Of"}} Stock</p>
+        <div class="flex justify-center">
+            <button mat-raised-button color="primary" (click)="view()">View </button>
+        </div>
+    </div>
+</mat-card>
+
+<!-- <mat-card class="Shadow">
+    <img class="!h-58" src="{{bag_pack.image}}" alt="Image">
+
+     {{mybags | json}} 
+    <div class="p-4">
+        <h5>{{bag_pack.title}}</h5>
+        <h6>{{bag_pack.brand}}</h6>
+        <div class="flex gap-3">
+            <span>Price. ${{bag_pack.price*(bag_pack.discount*0.01)}}</span>
+            <span><s>${{bag_pack.price}}</s></span>
+            <span><b>{{bag_pack.discount}}% Discount</b></span>
+        </div>
+        <p class="available">In Stock</p>
+    </div>
+</mat-card> -->

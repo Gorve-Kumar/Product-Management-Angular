@@ -1,0 +1,71 @@
+<div class="p-4 mt-2">
+    <div class="flex mb-4">
+        <app-search (search)="onSearch($event)"></app-search>
+    </div>
+    <div class="flex flex-wrap">
+        @for (bag of filteredBags; track $index) {
+            <!-- {{bag | json}} -->
+            <div class="w-1/5 pr-2 mb-2">
+                <app-product-card 
+                    [bag_pack]="bag" 
+                    (viewProduct)="onViewProduct($event)">
+                </app-product-card>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- <div class="p-8 mt-4">
+    <div class="flex flex-wrap">
+        <div class="w-4/12 pr-2 mb-2">
+            <app-product-card></app-product-card>
+        </div>
+
+        <div class="w-4/12 pr-2 mb-2">
+            <app-product-card></app-product-card>
+        </div>
+
+        <div class="w-4/12 pr-2 mb-2">
+            <app-product-card></app-product-card>
+        </div>
+
+        <div class="w-4/12 pr-2 mb-2">
+            <app-product-card></app-product-card>
+        </div>
+
+        <div class="w-4/12 pr-2 mb-2">
+            <app-product-card></app-product-card>
+        </div>
+
+        <div class="w-4/12 pr-2 mb-2">
+            <app-product-card></app-product-card>
+        </div>
+    </div>
+</div> -->
+
+<!-- @if (type == 1){
+    <h5>If Hello</h5>
+} @else {
+    <h5>Else Hello</h5>
+}
+
+@switch (type) {
+    @case (1) {
+        <h5>Case I</h5>
+    } @case (2) {
+        <h5>Case II</h5>
+    } @default {
+        <h5>Default Case</h5>
+    }
+}
+
+<h6>Hello {{types[0]}}</h6>
+<h6>Hello {{types[1]}}</h6>
+<h6>Hello {{types[2]}}</h6>
+<h6>Hello {{types[3]}}</h6>
+
+@for (type of types; track $index) {
+    <h6>For {{type}}</h6>
+} @empty {
+    <p>No element found!!</p>
+} -->

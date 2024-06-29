@@ -1,0 +1,12 @@
+<div class="flex items-center gap-8 search-bar">
+    <mat-form-field style="width: 30rem; border-radius: 40%;"
+            subscriptSizing="dynamic"
+            appearance="outline">
+        <!-- <mat-label>Search</mat-label> -->
+        <input matInput placeholder="Search here" 
+                    (keypress)="OnTyping($event)"
+                    (change)="InputChange($event)">
+    </mat-form-field>
+
+    <button mat-flat-button color="primary" (click) = OnSearch()>Search</button>
+</div>
