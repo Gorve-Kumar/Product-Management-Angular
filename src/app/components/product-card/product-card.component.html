@@ -2,10 +2,10 @@
     <img class="product-image" src="{{bag_pack.image}}" alt="Image">
     <div class="p-4">
         <h6>{{bag_pack.title}}</h6>
-        <p>{{bag_pack.brand}}</p>
+        <p>{{bag_pack.brand | uppercase}}</p>
         <div class="flex gap-3">
-            <span>Price. ${{bag_pack.price * ((100-bag_pack.discount) * 0.01)}}</span>
-            <span><s>${{bag_pack.price}}</s></span>
+            <span>Price. {{bag_pack.price * ((100-bag_pack.discount) * 0.01) | dollar}}</span>
+            <span><s>{{bag_pack.price | dollar}} </s></span>
             <span><b>{{bag_pack.discount}}% Discount</b></span>
         </div>
         <p class="available">{{bag_pack.available?"In":"Out Of"}} Stock</p>

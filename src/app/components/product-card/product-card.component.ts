@@ -1,8 +1,9 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, UpperCasePipe } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { Bags } from '../../types/product';
+import { DollarPipe } from '../../dollar.pipe';
 
 @Component({
   selector: 'app-product-card',
@@ -10,8 +11,11 @@ import { Bags } from '../../types/product';
   imports: [
     MatCardModule,
     MatButtonModule,
-    CommonModule
+    CommonModule,
+    UpperCasePipe,
+    DollarPipe
   ],
+  
   templateUrl: './product-card.component.html',
   styleUrl: './product-card.component.scss'
 })
