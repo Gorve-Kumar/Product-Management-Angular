@@ -1,16 +1,24 @@
 <mat-toolbar class="custom-toolbar">
-    <button mat-icon-button class="example-icon" aria-label="menu icon">
+    <button mat-icon-button 
+        class="example-icon" 
+        aria-label="menu icon">
       <mat-icon routerLink="/products">home</mat-icon>
     </button>
-    <span>{{title}}</span>
+    
+    <span routerLink="/products">{{title}}</span>
 
     <span class="example-spacer"></span>
     
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="heart icon">
-      <mat-icon>favorite</mat-icon>
+    <button mat-icon-button 
+        class="example-icon add-icon" 
+        aria-label="add icon"
+        routerLink="/add-product">
+      <mat-icon>add</mat-icon>
     </button>
 
-    <button mat-icon-button class="example-icon" aria-label="share icon">
+    <button mat-icon-button 
+        class="example-icon" 
+        aria-label="share icon">
       <mat-icon>share</mat-icon>
     </button>
   </mat-toolbar>

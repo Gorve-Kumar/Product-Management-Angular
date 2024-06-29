@@ -12,7 +12,8 @@
         <h5 class="product-description">About Product</h5>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non expedita possimus aut officia nihil repellat, sunt eaque assumenda harum autem distinctio eum cum explicabo voluptas est iure laboriosam dolorum veniam reprehenderit commodi rerum! Neque minus aperiam ullam nemo a odit eligendi excepturi dolore vel totam, vitae molestias dolorum nesciunt temporibus quod unde animi sed consectetur impedit alias! Sed quisquam optio facilis laudantium sapiente? Provident tenetur quo, iste voluptas asperiores vitae reprehenderit id et totam assumenda enim. Numquam, officiis fugiat quod maxime ducimus voluptatibus dignissimos facere perspiciatis, vero autem, quam eos?</p>
 
-        <button mat-flat-button class="add-btn">Add to Cart</button>
+        <button mat-flat-button class="btn">Add to Cart</button>
+        <button mat-flat-button class="btn" color="accent" [routerLink]="'/edit-product/'+bag.id">Update Item</button>
     </div>
     <div class="product-image-container">
         <img class="product-image" src="{{bag.image}}" alt="Image">

@@ -4,7 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { Bags } from '../../types/product';
 import { ProductService } from '../../product.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-product-detail',
@@ -12,7 +12,8 @@ import { ActivatedRoute } from '@angular/router';
   imports: [
     MatCardModule,
     MatButtonModule,
-    CommonModule
+    CommonModule,
+    RouterLink
   ],
   templateUrl: './product-detail.component.html',
   styleUrl: './product-detail.component.scss'
@@ -31,5 +32,4 @@ export class ProductDetailComponent {
       this.bag = result;
     });
   }
-
 }

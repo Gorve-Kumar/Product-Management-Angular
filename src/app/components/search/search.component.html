@@ -1,12 +1,21 @@
-<div class="flex items-center gap-8 search-bar">
-    <mat-form-field style="width: 30rem; border-radius: 40%;"
-            subscriptSizing="dynamic"
-            appearance="outline">
+<div class="flex items-center gap-8">
+    <mat-form-field 
+        style="width: 30rem; border-radius: 40%;" 
+        subscriptSizing="dynamic" 
+        appearance="outline">
         <!-- <mat-label>Search</mat-label> -->
-        <input matInput placeholder="Search here" 
-                    (keypress)="OnTyping($event)"
-                    (change)="InputChange($event)">
+
+        <!-- Here we will implement two way data binding using text property of input and [(ngModel)] -->
+        <input matInput 
+            name="search_text" 
+            [(ngModel)]="search_text" 
+            placeholder="Search here">
+
+        <!-- <input matInput 
+            placeholder="Search here" 
+            (keypress)="OnTyping($event)" 
+            (change)="InputChange($event)"> -->
     </mat-form-field>
 
-    <button mat-flat-button color="primary" (click) = OnSearch()>Search</button>
+    <button mat-flat-button color="primary" (click)=OnSearch()>Search</button>
 </div>

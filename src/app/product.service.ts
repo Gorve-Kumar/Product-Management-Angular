@@ -13,7 +13,6 @@ export class ProductService {
   // bags = []
 
   constructor() { 
-
   }
 
   getProducts(){ // Calls HTTP API
@@ -22,5 +21,13 @@ export class ProductService {
 
   getProductsByID(id: number){
     return this.httpClient.get<Bags>("http://localhost:3000/Bags/"+id);
-  }
+  };
+
+  addProduct(bag: Bags){
+    return this.httpClient.post<Bags>("http://localhost:3000/Bags", bag);
+  };
+
+  updateProduct(bag: Bags){
+    return this.httpClient.put<Bags>("http://localhost:3000/Bags/"+bag.id, bag);
+  };
 }

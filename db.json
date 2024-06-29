@@ -1,94 +1,112 @@
 {
-    "Bags": [
-        {
-            "id": "1",
-            "title": "Laptop Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/n/b/f/-original-imahymzfkxy5uweg.jpeg?q=70",
-            "brand": "Camel",
-            "price": "50",
-            "discount": "40",
-            "available": true
-        },
-        {
-            "id": "2",
-            "title": "Laptop Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/x/g/y/-original-imagz6zvymamsj7z.jpeg?q=70",
-            "brand": "Dell",
-            "price": "50",
-            "discount": "10",
-            "available": true
-        },
-        {
-            "id": "3",
-            "title": "School Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/4/x/x/ashper-unisex-backpack-with-usb-port-and-rain-cover-w-095-laptop-original-imagmmjwhvxmhhqf.jpeg?q=70",
-            "brand": "Hockey",
-            "price": "80",
-            "discount": "20",
-            "available": false
-        },
-        {
-            "id": "4",
-            "title": "Suitcase",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/suitcase/q/u/0/-original-imahy9ffzgjhyjz2.jpeg?q=70",
-            "brand": "Eagle",
-            "price": "100",
-            "discount": "15",
-            "available": true
-        },
-        {
-            "id": "5",
-            "title": "Gym Pack",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/sport-bag/n/r/k/gym-duffel-bag-men-women-sports-duffel-gym-bag-shoe-compartment-original-imagnmyvmzfsmvfd.jpeg?q=70",
-            "brand": "Puma",
-            "price": "60",
-            "discount": "25",
-            "available": true
-        },
-        {
-            "id": "6",
-            "title": "Baggy Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/r/f/q/-original-imagz87kaqdsttgj.jpeg?q=70",
-            "brand": "Lino Perros",
-            "price": "70",
-            "discount": "30",
-            "available": true
-        },
-        {
-            "id": "7",
-            "title": "Duffel Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/t/2/h/-original-imaguuzgtezkjzpw.jpeg?q=70",
-            "brand": "Safari",
-            "price": "85",
-            "discount": "20",
-            "available": true
-        },
-        {
-            "id": "8",
-            "title": "Tote Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/r/f/q/-original-imagz87kaqdsttgj.jpeg?q=70",
-            "brand": "Fashion Forever",
-            "price": "45",
-            "discount": "35",
-            "available": true
-        },
-        {
-            "id": "9",
-            "title": "Messenger Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/hand-messenger-bag/j/7/g/men-women-messenger-office-laptop-tan-waterproof-brown-42-file-original-imahfs4rehkhsphz.jpeg?q=70",
-            "brand": "Wolf",
-            "price": "90",
-            "discount": "25",
-            "available": false
-        },
-        {
-            "id": "10",
-            "title": "Sling Bag",
-            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/l/9/e/stylish-casual-backpack-for-school-college-boys-girls-sports-bag-original-imagtg65z3pgnghe.jpeg?q=70",
-            "brand": "Pranjals House",
-            "price": "40",
-            "discount": "15",
-            "available": true
-        }
-    ]
+  "Bags": [
+    {
+      "id": "1",
+      "title": "Laptop Bag",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/n/b/f/-original-imahymzfkxy5uweg.jpeg?q=70",
+      "brand": "Camel",
+      "price": "50",
+      "discount": "40",
+      "available": true
+    },
+    {
+      "id": "2",
+      "title": "College Bag",
+      "brand": "Dell",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/x/g/y/-original-imagz6zvymamsj7z.jpeg?q=70",
+      "price": "50",
+      "discount": "10",
+      "available": true
+    },
+    {
+      "id": "3",
+      "title": "School Bag",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/4/x/x/ashper-unisex-backpack-with-usb-port-and-rain-cover-w-095-laptop-original-imagmmjwhvxmhhqf.jpeg?q=70",
+      "brand": "Hockey",
+      "price": "80",
+      "discount": "20",
+      "available": false
+    },
+    {
+      "id": "4",
+      "title": "Suitcase",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/suitcase/q/u/0/-original-imahy9ffzgjhyjz2.jpeg?q=70",
+      "brand": "Eagle",
+      "price": "100",
+      "discount": "15",
+      "available": true
+    },
+    {
+      "id": "5",
+      "title": "Gym Pack",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/sport-bag/n/r/k/gym-duffel-bag-men-women-sports-duffel-gym-bag-shoe-compartment-original-imagnmyvmzfsmvfd.jpeg?q=70",
+      "brand": "Puma",
+      "price": "60",
+      "discount": "25",
+      "available": true
+    },
+    {
+      "id": "6",
+      "title": "Baggy Bag",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/r/f/q/-original-imagz87kaqdsttgj.jpeg?q=70",
+      "brand": "Lino Perros",
+      "price": "70",
+      "discount": "30",
+      "available": true
+    },
+    {
+      "id": "7",
+      "title": "Duffel Bag",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/t/2/h/-original-imaguuzgtezkjzpw.jpeg?q=70",
+      "brand": "Safari",
+      "price": "85",
+      "discount": "20",
+      "available": true
+    },
+    {
+      "id": "8",
+      "title": "Tote Bag",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/r/f/q/-original-imagz87kaqdsttgj.jpeg?q=70",
+      "brand": "Fashion Forever",
+      "price": "45",
+      "discount": "35",
+      "available": true
+    },
+    {
+      "id": "9",
+      "title": "Messenger Bag",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/hand-messenger-bag/j/7/g/men-women-messenger-office-laptop-tan-waterproof-brown-42-file-original-imahfs4rehkhsphz.jpeg?q=70",
+      "brand": "Wolf",
+      "price": "90",
+      "discount": "25",
+      "available": false
+    },
+    {
+      "id": "10",
+      "title": "Sling Bag",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/l/9/e/stylish-casual-backpack-for-school-college-boys-girls-sports-bag-original-imagtg65z3pgnghe.jpeg?q=70",
+      "brand": "Pranjals House",
+      "price": "40",
+      "discount": "15",
+      "available": true
+    },
+    {
+      "id": "e664",
+      "title": "Mens Wallet",
+      "brand": "Storiee",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/wallet-card-wallet/6/r/f/9-slot-vertical-pu-leather-credit-debit-card-holder-money-wallet-original-imagp7nfagcj9bua.jpeg?q=70",
+      "price": "110",
+      "discount": "30",
+      "available": true
+    },
+    {
+      "id": "0bc2",
+      "title": "Hello Kitty Bag",
+      "brand": "Kitty Love",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/g/h/3/14-premium-quality-kids-school-bag-cartoon-toy-for-play-school-original-imagrm9fsgamapby.jpeg?q=70",
+      "price": "32",
+      "discount": "10",
+      "available": false
+    }
+  ]
 }

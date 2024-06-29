@@ -1,0 +1,44 @@
+<div class="p-8 mt-8 flex justify-center">
+    <form [formGroup]="bagForm" class="shadow border w-6/12 p-4" (ngSubmit)="editProduct()">
+        <div class="flex flex-col">
+            <mat-form-field class="w-full">
+                <input matInput 
+                    name="title"
+                    formControlName="title"
+                    placeholder="Product Name?">
+            </mat-form-field>
+
+            <mat-form-field class="w-full">
+                <input matInput 
+                    name="brand" 
+                    formControlName="brand"
+                    placeholder="Brand Name?">
+            </mat-form-field>
+
+            <mat-form-field class="w-full">
+                <input matInput 
+                    name="image" 
+                    formControlName="image"
+                    placeholder="Write URL of Image">
+            </mat-form-field>
+
+            <mat-form-field class="w-full">
+                <input matInput 
+                    name="price" 
+                    formControlName="price"
+                    placeholder="Price of Product?">
+            </mat-form-field>
+
+            <mat-form-field class="w-full">
+                <input matInput 
+                    name="discount" 
+                    formControlName="discount"
+                    placeholder="Discount Amount?">
+            </mat-form-field>
+        </div>
+
+        <div class="flex justify-center">
+            <button type="submit" class="w-3/6" mat-flat-button color="primary">Edit Product</button>
+        </div>
+    </form>
+</div>

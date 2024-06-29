@@ -31,26 +31,26 @@ export class HomeComponent {
   ngOnInit(){
     // this.bags = this.productService.bags;
     this.productService.getProducts().subscribe((result) => {
-      console.log(result);
+      // console.log(result);
       this.bags = result as Bags [];
       this.filteredBags = this.bags
     });
     // This also won't work as Code runs Asynchronous!!
     // this.filteredBags = this.bags
-  }
+  };
 
   onViewProduct(event: any){
-    console.log("Received Event", event);
+    console.log("View Clicked ", event);
     this.router.navigateByUrl('product/'+event);
   };
 
   onSearch(search: string){
-    console.log("Home received ", search);
+    console.log("Search Received ", search);
 
     if (search){
       this.filteredBags = this.bags.filter(bag => bag.title.toLowerCase().includes(search.toLowerCase()));
     } else {
       this.filteredBags = this.bags;
-    }
+    };
   };
-}
+};
