@@ -1,1 +1,49 @@
-<p>product-detail works!</p>
+<div class="product-container">
+    <div class="product-details">
+        <h2>{{bag.title}}</h2>
+        <h5>Brand Name: {{bag.brand}}</h5>
+        <div class="price-details">
+            <span class="discounted-price">${{bag.price * ((100-bag.discount) * 0.01)}}</span>
+            <span class="original-price"><s>${{bag.price}}</s></span>
+        </div>
+        <p class="discount">{{bag.discount}}% Discount</p>
+        <p class="availability">{{bag.available ? "In" : "Out Of"}} Stock</p>
+
+        <h5 class="product-description">About Product</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non expedita possimus aut officia nihil repellat, sunt eaque assumenda harum autem distinctio eum cum explicabo voluptas est iure laboriosam dolorum veniam reprehenderit commodi rerum! Neque minus aperiam ullam nemo a odit eligendi excepturi dolore vel totam, vitae molestias dolorum nesciunt temporibus quod unde animi sed consectetur impedit alias! Sed quisquam optio facilis laudantium sapiente? Provident tenetur quo, iste voluptas asperiores vitae reprehenderit id et totam assumenda enim. Numquam, officiis fugiat quod maxime ducimus voluptatibus dignissimos facere perspiciatis, vero autem, quam eos?</p>
+
+        <button mat-flat-button class="add-btn">Add to Cart</button>
+    </div>
+    <div class="product-image-container">
+        <img class="product-image" src="{{bag.image}}" alt="Image">
+    </div>
+</div>
+
+
+<!-- <div class="flex p-12">
+    <span>
+        <div class="">
+            <h2>{{bag.title}}</h2>
+            <h5>Brand Name: {{bag.brand}}</h5>
+            <div class="flex gap-6">
+                <span>Price. ${{bag.price * ((100-bag.discount) * 0.01)}}</span>
+                <span><s>${{bag.price}}</s></span>
+            </div>
+            <p><b>{{bag.discount}}% Discount</b></p>
+            <p class="available">{{bag.available?"In":"Out Of"}} Stock</p>
+            <br><br><br>
+
+            <h5>About Product</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non expedita possimus aut officia nihil
+                repellat, sunt eaque assumenda harum autem distinctio eum cum explicabo voluptas est iure laboriosam
+                dolorum veniam reprehenderit commodi rerum! Neque minus aperiam ullam nemo a odit eligendi excepturi
+                dolore vel totam, vitae molestias dolorum nesciunt temporibus quod unde animi sed consectetur impedit
+                alias! Sed quisquam optio facilis laudantium sapiente? Provident tenetur quo, iste voluptas asperiores
+                vitae reprehenderit id et totam assumenda enim. Numquam, officiis fugiat quod maxime ducimus
+                voluptatibus dignissimos facere perspiciatis, vero autem, quam eos?</p>
+        </div>
+    </span>
+    <span>
+        <img class="product-image p-8" src="{{bag.image}}" alt="Image">
+    </span>
+</div> -->

@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
+import { Bags } from './types/product';
 
 @Injectable({
   providedIn: 'root'
@@ -11,8 +12,15 @@ export class ProductService {
   httpClient = inject(HttpClient); // External Service in Angular Core
   // bags = []
 
-  getProducts(){ // Calls HTTP API
-    return this.httpClient.get("http://localhost:3000/Bags")
+  constructor() { 
+
   }
-  constructor() { }
+
+  getProducts(){ // Calls HTTP API
+    return this.httpClient.get<Bags[]>("http://localhost:3000/Bags")
+  };
+
+  getProductsByID(id: number){
+    return this.httpClient.get<Bags>("http://localhost:3000/Bags/"+id);
+  }
 }

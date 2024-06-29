@@ -1,0 +1,66 @@
+.available{
+    color: darkgreen;
+    font-weight: 500;
+}
+
+.product-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product-details {
+    width: 55%;
+    padding: 20px;
+}
+
+.product-image-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image {
+    width: auto;
+    height: 100%;
+}
+
+.price-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.discounted-price {
+    color: #e74c3c;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.original-price {
+    color: #999;
+    font-size: 1em;
+    text-decoration: line-through;
+}
+
+.discount {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.availability {
+    margin: 10px 0;
+    font-weight: bold;
+    color: darkgreen
+}
+
+.product-description {
+    margin-top: 40px;
+    line-height: 1.6;
+}
+
+.add-btn{
+    margin-top: 12px;
+}
