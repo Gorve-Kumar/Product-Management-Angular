@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { SearchComponent } from '../search/search.component';
 import { ProductService } from '../../product.service';
 import { Bags } from '../../types/product'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ import { Bags } from '../../types/product'
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
+
 export class HomeComponent {
   // type=3;
   // types=[5,6,7,2];
@@ -23,6 +25,7 @@ export class HomeComponent {
   
   bags: Bags[] = [];
   productService = inject(ProductService);
+  router = inject(Router);
 
   filteredBags: Bags[] = [];
   ngOnInit(){
@@ -38,6 +41,7 @@ export class HomeComponent {
 
   onViewProduct(event: any){
     console.log("Received Event", event);
+    this.router.navigateByUrl('product/'+event);
   };
 
   onSearch(search: string){

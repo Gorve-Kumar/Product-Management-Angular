@@ -1,17 +1,19 @@
 import { Component } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
-  template: `
-        <h4 class="p-2 bg-blue-900 text-white">{{title}}</h4>
-        `,
-  styles: `
-    h4{
-      text-align: center;
-    }
-  `
+  imports: [
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule
+  ],
+  
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
   title = "Product Management App"
