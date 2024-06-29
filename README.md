@@ -1,3 +1,8 @@
+# STEPS TO RUN THE PROJECT:
+1 - npm install
+2 - npm run server
+3 - ng serve
+
 # ProductManagementApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
